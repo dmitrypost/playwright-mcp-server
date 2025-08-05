@@ -1,0 +1,22 @@
+{
+  "name": "playwright-mcp-server",
+  "version": "1.0.0",
+  "description": "Playwright MCP Server for browser automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@playwright/mcp": "^1.0.0",
+    "@playwright/test": "^1.47.0",
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "@types/node": "^22.5.5"
+  }
+}
